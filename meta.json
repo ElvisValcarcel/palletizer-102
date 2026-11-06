@@ -9,7 +9,7 @@
     }
   ],
   "visibility": "private",
-  "url": "",
+  "url": "https://github.com/ElvisValcarcel/palletizer-102",
   "description": "A generic service for a palletizer",
   "markdown_link": "README.md",
   "entrypoint": "dist/main",
