@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "mightyorangemachine:palletizer-102",
+  "models": [
+    {
+    "api": "rdk:service:generic",
+    "model": "mightyorangemachine:palletizer-102:palletizer",
+    "markdown_link": "mightyorangemachine_palletizer-102_palletizer.md"
+    }
+  ],
+  "visibility": "private",
+  "url": "",
+  "description": "A generic service for a palletizer",
+  "markdown_link": "README.md",
+  "entrypoint": "dist/main",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64",
+      "darwin/arm64"
+    ]
+  }
+}
